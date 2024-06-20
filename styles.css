@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+section .hero-img,
+section .about-img,
+section .services-img {
+  height: 200vh;
+}
+
+.hero {
+  background-color: aquamarine;
+}
+
+.about {
+  background-color: cadetblue;
+}
+
+.services {
+  background-color: coral;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+h1 {
+  color: #000;
+  font-size: 12vw;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  opacity: 0.5;
+}
+
+.blocks-container {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+}
+
+.blocks-container.top {
+  top: 0;
+}
+
+.blocks-container.bottom {
+  bottom: 0;
+}
+
+.blocks-row {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.block {
+  width: 100%;
+  height: 100%;
+  transition: opacity 100ms;
+}
+
+.blocks-container.top .blocks-row .block {
+  opacity: 1;
+}
+
+.blocks-container.bottom .blocks-row .block {
+  opacity: 0;
+}
+
+.hero-img .blocks-container.top .blocks-row .block {
+  background-color: aquamarine;
+}
+
+.hero-img .blocks-container.bottom .blocks-row .block {
+  background-color: blue;
+}
+
+.about-img .blocks-container.top .blocks-row .block {
+  background-color: cadetblue;
+}
+
+.about-img .blocks-container.bottom .blocks-row .block {
+  background-color: darkblue;
+}
+
+.services-img .blocks-container.top .blocks-row .block {
+  background-color: coral;
+}
+
+.services-img .blocks-container.bottom .blocks-row .block {
+  background-color: darkred;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+}
+
+footer .copyright {
+  color: #fff;
+  font-size: 14px;
+}
