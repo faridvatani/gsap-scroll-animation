@@ -27,15 +27,15 @@ section .services-img {
 }
 
 .hero {
-  background-color: aquamarine;
+  background-color: #06d6a0;
 }
 
 .about {
-  background-color: cadetblue;
+  background-color: #3f37c9;
 }
 
 .services {
-  background-color: coral;
+  background-color: #ffc300;
 }
 
 img {
@@ -90,27 +90,27 @@ h1 {
 }
 
 .hero-img .blocks-container.top .blocks-row .block {
-  background-color: aquamarine;
+  background-color: #06d6a0;
 }
 
 .hero-img .blocks-container.bottom .blocks-row .block {
-  background-color: blue;
+  background-color: #3f37c9;
 }
 
 .about-img .blocks-container.top .blocks-row .block {
-  background-color: cadetblue;
+  background-color: #3f37c9;
 }
 
 .about-img .blocks-container.bottom .blocks-row .block {
-  background-color: darkblue;
+  background-color: #ffc300;
 }
 
 .services-img .blocks-container.top .blocks-row .block {
-  background-color: coral;
+  background-color: #ffc300;
 }
 
 .services-img .blocks-container.bottom .blocks-row .block {
-  background-color: darkred;
+  background-color: #1b263b;
 }
 
 footer {
@@ -119,7 +119,7 @@ footer {
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: #000;
+  background-color: #1b263b;
 }
 
 footer .copyright {
